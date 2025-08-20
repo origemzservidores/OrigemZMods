@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{08F2741803EC31A3}OrigemZUI/GUI/Images/Bakcgrounds_Loadscreens/mainmenu-nobase.edds"
+ Author "signote"
+ ChangeDate -1127681338
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "mainmenu-nobase.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

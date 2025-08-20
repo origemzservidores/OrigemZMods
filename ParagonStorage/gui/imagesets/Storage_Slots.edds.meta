@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{2F38163C74CE6B62}ParagonStorage/gui/imagesets/Storage_Slots.edds"
+ Author "nickscomputer"
+ ChangeDate -1318768039
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "Storage_Slots.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

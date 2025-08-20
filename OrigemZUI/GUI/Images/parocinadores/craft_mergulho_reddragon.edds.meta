@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{2BCA3EF9AC0668D6}OrigemZUI/GUI/Images/parocinadores/craft_mergulho_reddragon.edds"
+ Author "signote"
+ ChangeDate 1712583271
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "craft_mergulho_reddragon.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{ED6D966DD3DC4945}OrigemZUI/GUI/Images/parocinadores/tela_menu_sdt_vanillaplus.edds"
+ Author "signote"
+ ChangeDate 1583592039
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "tela_menu_sdt_vanillaplus.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{393C18FAAD51D539}OrigemLoadingscreen/Image/queue.edds"
+ Author "desktop-ip4utdk"
+ ChangeDate -1029411262
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "queue.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

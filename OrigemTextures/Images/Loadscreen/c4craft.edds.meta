@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{FEAEEAFAA4661645}OrigemTextures/Images/Loadscreen/c4craft.edds"
+ Author "signote"
+ ChangeDate 1773433400
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "c4craft.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

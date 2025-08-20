@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E97C7F61DB1B064B}OrigemZUI/GUI/Images/misc/vip_button.edds"
+ Author "signote"
+ ChangeDate 1419571812
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "vip_button.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

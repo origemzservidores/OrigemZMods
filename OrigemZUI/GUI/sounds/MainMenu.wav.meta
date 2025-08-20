@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{F9EFB9216827F89A}OrigemZUI/GUI/sounds/MainMenu.wav"
+ Author "signote"
+ ChangeDate 1734095451
+ Configurations {
+  OGGResourceClass PC {
+   SourceFile "MainMenu.ogg"
+  }
+  OGGResourceClass XBOX_ONE : PC {
+  }
+  OGGResourceClass PS4 : PC {
+  }
+  OGGResourceClass LINUX : PC {
+  }
+ }
+}

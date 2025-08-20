@@ -1,0 +1,125 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 420 312.69
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  ImageWidgetClass Background {
+   ignorepointer 1
+   color 0.0706 0.0706 0.0706 0.902
+   position 0 0
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   {
+    ButtonWidgetClass BtnHeli {
+     color 0.4275 0 0 0.9373
+     position 0.00562 0.01948
+     size 0.9132 0.1
+     halign center_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style DayZDefaultButton
+     text "COMPRAR"
+     text_proportion 0.6
+     switch normal
+    }
+    TextWidgetClass ItemName {
+     ignorepointer 1
+     position 0 0.00913
+     size 0.42713 0.09059
+     halign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     scaled 0
+     style Light
+     text "NomeItem"
+     "exact text" 0
+     "size to text h" 1
+     "size to text v" 0
+     "text valign" center
+    }
+    TextWidgetClass Preco {
+     ignorepointer 1
+     color 1 0.9647 0.0353 1
+     position 0.26202 0.11952
+     size 0.40147 0.10152
+     halign center_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "10"
+     "exact text" 1
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass Custo {
+     ignorepointer 1
+     position 0.26182 0.22392
+     size 0.40147 0.10073
+     halign center_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style Bold
+     text "BZCoin:"
+     "exact text" 1
+     "text halign" center
+     "text valign" center
+    }
+    ItemPreviewWidgetClass ItemPreview {
+     ignorepointer 1
+     position 0.00476 0.10923
+     size 0.82611 0.3713
+     halign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+    }
+    TextWidgetClass TextSeguro {
+     ignorepointer 1
+     position 20.468 58.9908
+     size 88.768 23.872
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "* SEGURO INCLUSO"
+     "size to text h" 1
+    }
+    MultilineTextWidgetClass TextDescription {
+     visible 1
+     ignorepointer 1
+     position 0 23.912
+     size 377.961 58.566
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     "exact text" 1
+     "size to text v" 0
+     wrap 1
+    }
+   }
+  }
+ }
+}

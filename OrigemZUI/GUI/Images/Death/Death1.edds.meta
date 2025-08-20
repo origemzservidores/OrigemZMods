@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3792A0DAB5C96FF8}OrigemZUI/GUI/Images/Death/Death1.edds"
+ Author "signote"
+ ChangeDate -1038290341
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Death1.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{AECB0BA005F60A90}OrigemMainMenu/gui/MainMenu/Images/in_game_logo.edds"
+ Author "desktop-ip4utdk"
+ ChangeDate 978660930
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "in_game_logo.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

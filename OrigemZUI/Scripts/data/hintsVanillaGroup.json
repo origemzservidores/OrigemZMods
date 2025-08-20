@@ -1,0 +1,17 @@
+[
+    {
+      "m_ImagePath": "OrigemZUI/GUI/Images/parocinadores/craft_mergulho_reddragon.edds",
+      "m_Headline": "Naufragio",
+      "m_Description": "As partes da roupa de mergulho podem ser encontradas pelo mapa, elas são essenciais para abrir as portas dos naufragios e conseguir ficar mais tempo embaixo da agua."
+    },
+    {
+      "m_ImagePath": "OrigemZUI/GUI/Images/parocinadores/craft_vanilla_plus_btc_reddragon.edds",
+      "m_Headline": "Bitcoin",
+      "m_Description": "Voce pode farmar bitcoin montando um rig de mineração e conectando ele a uma fonte de energia, os bitcoins podem ser trocados helicópteros ou Chapas de metal para dar upgrade na sua base."
+    },
+    {
+      "m_ImagePath": "OrigemZUI/GUI/Images/parocinadores/load_craft_c4_novo_reddragon.edds",
+      "m_Headline": "Craft C4",
+      "m_Description": "Para craftar uma gunpowder vc percisa de: 1x Sulfur + 1x Charcoal.\n\nPara craftar 1 C4 Stick vc precisa: 5x Gunpowder + 1x Burlap Sack.\n\nPara craftar o Receiver com a fita vc precisa: 1x Raid Tape + 1x Receiver.\n\nPara craftar 1 C4 vc precisa de 1x Explosive Stick + 1x Receiver com fita.\n\nApós isso basta anexar a bateria."
+    }
+]

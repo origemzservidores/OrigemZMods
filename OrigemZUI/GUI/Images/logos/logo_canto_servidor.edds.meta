@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{F0C9E1684E1919A7}OrigemZUI/GUI/Images/logos/logo_canto_servidor.edds"
+ Author "signote"
+ ChangeDate -786615717
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "logo_canto_servidor.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

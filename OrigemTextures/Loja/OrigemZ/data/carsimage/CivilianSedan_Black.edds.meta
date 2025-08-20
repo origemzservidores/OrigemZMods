@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{141DA00959CA8D7F}OrigemZStore/data/carsimage/CivilianSedan_Black.edds"
+ Author "desktop-eehb8jr"
+ ChangeDate -382390025
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "CivilianSedan_Black.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

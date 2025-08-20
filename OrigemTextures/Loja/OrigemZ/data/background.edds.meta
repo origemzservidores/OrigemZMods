@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{57AFC732366A3363}OrigemZStore/data/background.png"
+ Author "desktop-irkqrq7"
+ ChangeDate -1004506978
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "background.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

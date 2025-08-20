@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{C697E329CA1A9ADF}OrigemLoadingscreen/Image/Loading.edds"
+ Author "desktop-ip4utdk"
+ ChangeDate 1107652162
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Loading.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

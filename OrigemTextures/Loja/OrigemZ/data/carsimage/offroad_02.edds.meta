@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{DBFFCF331CF6FC05}OrigemZStore/data/carsimage/offroad_02.edds"
+ Author "desktop-eehb8jr"
+ ChangeDate -214617865
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "offroad_02.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

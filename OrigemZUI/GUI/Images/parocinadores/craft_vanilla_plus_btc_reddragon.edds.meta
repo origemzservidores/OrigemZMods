@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{1D5A2F89186A2BA4}OrigemZUI/GUI/Images/parocinadores/craft_vanilla_plus_btc_reddragon.edds"
+ Author "signote"
+ ChangeDate 617329255
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "craft_vanilla_plus_btc_reddragon.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

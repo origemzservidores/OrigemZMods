@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{CACAEE2D0079C0F7}OrigemTextures/Images/Loadscreen/LoadPatrocinadores.edds"
+ Author "pcleo"
+ ChangeDate 662433458
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "LoadPatrocinadores.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{8A62BC58ACBD8471}OrigemTextures/Images/Apoiadores/logoecxon.edds"
+ Author "pcleo"
+ ChangeDate -177361231
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "logoecxon.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

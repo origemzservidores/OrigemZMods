@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{C26086DD18BF78F0}OrigemZUI/GUI/Images/logos/Oz_branco.edds"
+ Author "signote"
+ ChangeDate -485150117
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Oz_branco.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{9532EE03CDD9A0B4}OrigemZUI/GUI/Images/Bakcgrounds_Loadscreens/origemz_tela_preta.edds"
+ Author "signote"
+ ChangeDate -1833618852
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "origemz_tela_preta.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{B6DF77BAABBD5A77}OrigemTextures/Images/Loadscreen/loadc4.edds"
+ Author "pcleo"
+ ChangeDate -1256493171
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "loadc4.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

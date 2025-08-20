@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E047D8B5A1D16939}OrigemTextures/Images/MainMenu/new_logo.edds"
+ Author "pcleo"
+ ChangeDate 1995779662
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "new_logo.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{50179C922E69E81B}OrigemZStore/data/burgao_shop.edds"
+ Author "desktop-irkqrq7"
+ ChangeDate -259280730
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "burgao_shop.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

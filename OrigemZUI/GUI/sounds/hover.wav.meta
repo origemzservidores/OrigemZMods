@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{EED9592FEF20627D}OrigemZUI/GUI/sounds/hover.wav"
+ Author "signote"
+ ChangeDate -230985124
+ Configurations {
+  OGGResourceClass PC {
+   SourceFile "hover.ogg"
+  }
+  OGGResourceClass XBOX_ONE : PC {
+  }
+  OGGResourceClass PS4 : PC {
+  }
+  OGGResourceClass LINUX : PC {
+  }
+ }
+}

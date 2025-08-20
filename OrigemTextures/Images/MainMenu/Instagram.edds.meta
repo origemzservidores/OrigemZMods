@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{5697F3EC77C6AC2F}OrigemMainMenu/gui/MainMenu/Images/Instagram.edds"
+ Author "desktop-ip4utdk"
+ ChangeDate -516166078
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Instagram.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

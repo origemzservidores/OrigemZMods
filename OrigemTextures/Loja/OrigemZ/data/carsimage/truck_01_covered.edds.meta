@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{AD2685E8879CC6C4}OrigemZStore/data/carsimage/truck_01_covered.edds"
+ Author "desktop-eehb8jr"
+ ChangeDate -2059587337
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "truck_01_covered.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

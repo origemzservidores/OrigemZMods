@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{556403680356F5CE}OrigemTextures/Images/Apoiadores/logospc.edds"
+ Author "pcleo"
+ ChangeDate -544887119
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "logospc.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

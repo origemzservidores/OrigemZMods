@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E1B5A886329C85C1}OrigemTextures/Images/MainMenu/acampando.edds"
+ Author "pcleo"
+ ChangeDate -1340362867
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "acampando.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

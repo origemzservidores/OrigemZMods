@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{1D61EC46104209B0}OrigemZUI/GUI/fonts/DownCome.edds"
+ Author "signote"
+ ChangeDate 1198305917
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "DownCome.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{8D3306A5228601A6}SpardaStore/data/orgiemz_shop.png"
+ Author "devsparda"
+ ChangeDate -603606929
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "orgiemz_shop.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

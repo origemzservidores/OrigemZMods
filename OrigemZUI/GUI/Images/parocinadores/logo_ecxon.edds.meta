@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{7DBF796264FDF3C8}OrigemZUI/GUI/Images/parocinadores/logo_ecxon.edds"
+ Author "signote"
+ ChangeDate 236696167
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "logo_ecxon.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

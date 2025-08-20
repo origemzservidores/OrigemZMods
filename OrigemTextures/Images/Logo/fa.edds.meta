@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{59A41CB3AA75D809}OrigemTextures/Images/Logo/fa.edds"
+ Author "pcleo"
+ ChangeDate 1611673266
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "fa.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,147 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 442.16 365.72
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  ImageWidgetClass Background {
+   ignorepointer 1
+   color 0.0706 0.0706 0.0706 0.902
+   position -0.00295 0
+   size 0.9979 1
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   {
+    ButtonWidgetClass BtnIParts {
+     color 0.4275 0 0 0.9373
+     position 0.00194 0.01948
+     size 0.9303 0.0871
+     halign center_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style DayZDefaultButton
+     text "COMPRAR"
+     text_proportion 0.6
+     switch normal
+    }
+    TextWidgetClass ItemName {
+     ignorepointer 1
+     position 0 0.0086
+     size 0.44326 0.11947
+     halign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     scaled 0
+     style Light
+     text "NomeItem"
+     "exact text" 0
+     "size to text h" 1
+     "size to text v" 0
+     "text valign" center
+    }
+    ItemPreviewWidgetClass ItemPreview {
+     visible 1
+     ignorepointer 1
+     position 0 0.137
+     size 0.84439 0.32806
+     halign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+    }
+    TextWidgetClass Qnt {
+     ignorepointer 1
+     position 0.05018 0.11745
+     size 0.4015 0.0704
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style Bold
+     text "Quantidade:"
+     "exact text" 1
+     "size to text h" 1
+     "size to text v" 0
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass Quantidade {
+     ignorepointer 1
+     color 0.2314 0.5412 0.9294 1
+     position 0.0622 0.11988
+     size 0.3682 0.08776
+     halign right_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "10"
+     "exact text" 1
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass Custo {
+     ignorepointer 1
+     position 0.04724 0.25845
+     size 0.4015 0.06995
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style Bold
+     text "OZCoin:"
+     "exact text" 1
+     "size to text h" 1
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass Preco {
+     ignorepointer 1
+     color 1 0.9647 0.0353 1
+     position 0.06225 0.24898
+     size 0.3682 0.08543
+     halign right_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "10"
+     "exact text" 1
+     "text halign" center
+     "text valign" center
+    }
+    MultilineTextWidgetClass TextDescription {
+     ignorepointer 1
+     position 3 29.34
+     size 413.63 79.552
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     "exact text" 1
+     "size to text h" 0
+     "size to text v" 0
+     wrap 1
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{D00DC5814B457321}OrigemTextures/Loja/BurgaoZ/data/background.edds"
+ Author "signote"
+ ChangeDate -164908798
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "background.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

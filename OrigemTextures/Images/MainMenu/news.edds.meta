@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{98BA11479174F5B5}OrigemTextures/Images/MainMenu/news.edds"
+ Author "pcleo"
+ ChangeDate 1894067790
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "news.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{67563EE2F46953E2}OrigemTextures/Images/Loadscreen/loadseason42 .edds"
+ Author "pcleo"
+ ChangeDate -786731123
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "loadseason42 .png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

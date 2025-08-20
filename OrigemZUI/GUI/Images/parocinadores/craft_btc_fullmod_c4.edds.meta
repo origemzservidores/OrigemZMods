@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{D67B982217ECBF9E}OrigemZUI/GUI/Images/parocinadores/craft_btc_fullmod_c4.edds"
+ Author "signote"
+ ChangeDate 1222357607
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "craft_btc_fullmod_c4.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

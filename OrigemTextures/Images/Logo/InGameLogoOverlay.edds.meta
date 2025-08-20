@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{0A2BF51A95499FD0}OrigemLogo/Scripts/Data/InGameLogoOverlay.edds"
+ Author "pcleo"
+ ChangeDate -322736573
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "InGameLogoOverlay.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

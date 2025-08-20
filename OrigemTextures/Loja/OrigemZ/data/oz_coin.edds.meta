@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{BF6306177D5C3D6B}OrigemZStore/data/oz_coin.png"
+ Author "desktop-irkqrq7"
+ ChangeDate -2087161698
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "oz_coin.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

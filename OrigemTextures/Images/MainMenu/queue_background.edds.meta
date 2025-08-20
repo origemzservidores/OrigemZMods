@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3A5231A2D8805B7A}OrigemMainMenu/gui/MainMenu/Images/queue_background.edds"
+ Author "desktop-ip4utdk"
+ ChangeDate -895209918
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "queue_background.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

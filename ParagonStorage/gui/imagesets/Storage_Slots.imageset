@@ -1,0 +1,68 @@
+ImageSetClass {
+ Name "Storage_Slots"
+ RefSize 2048 2048
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "{2F38163C74CE6B62}ParagonStorage/gui/imagesets/Storage_Slots.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass Storage_HandSaw {
+   Name "Storage_HandSaw"
+   Pos 184 81
+   Size 435 435
+   Flags 0
+  }
+  ImageSetDefClass Storage_HackSaw {
+   Name "Storage_HackSaw"
+   Pos 874 132
+   Size 375 375
+   Flags 0
+  }
+  ImageSetDefClass Storage_Hatchet {
+   Name "Storage_Hatchet"
+   Pos 1565 222
+   Size 300 300
+   Flags 0
+  }
+  ImageSetDefClass Storage_ScrewDriver {
+   Name "Storage_ScrewDriver"
+   Pos 97 669
+   Size 263 263
+   Flags 0
+  }
+  ImageSetDefClass Storage_Pliers {
+   Name "Storage_Pliers"
+   Pos 500 660
+   Size 258 258
+   Flags 0
+  }
+  ImageSetDefClass Storage_Axe {
+   Name "Storage_Axe"
+   Pos 1120 644
+   Size 456 456
+   Flags 0
+  }
+  ImageSetDefClass Storage_PickAxe {
+   Name "Storage_PickAxe"
+   Pos 620 1255
+   Size 460 460
+   Flags 0
+  }
+  ImageSetDefClass Storage_Battery {
+   Name "Storage_Battery"
+   Pos 1574 675
+   Size 400 400
+   Flags 0
+  }
+  ImageSetDefClass Storage_Signs {
+   Name "Storage_Signs"
+   Pos 1181 1181
+   Size 750 750
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}

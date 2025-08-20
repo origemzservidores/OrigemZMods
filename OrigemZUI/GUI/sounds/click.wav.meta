@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{B10E635A94D02084}OrigemZUI/GUI/sounds/click.wav"
+ Author "signote"
+ ChangeDate -230985124
+ Configurations {
+  OGGResourceClass PC {
+   SourceFile "click.ogg"
+  }
+  OGGResourceClass XBOX_ONE : PC {
+  }
+  OGGResourceClass PS4 : PC {
+  }
+  OGGResourceClass LINUX : PC {
+  }
+ }
+}

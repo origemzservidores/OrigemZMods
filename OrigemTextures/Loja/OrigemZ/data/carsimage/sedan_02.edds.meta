@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{4CE41E32EBEB865A}OrigemZStore/data/carsimage/sedan_02.edds"
+ Author "desktop-eehb8jr"
+ ChangeDate -2093141769
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "sedan_02.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

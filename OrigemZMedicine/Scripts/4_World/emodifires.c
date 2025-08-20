@@ -1,0 +1,12 @@
+enum new_OZM_eModifiers 
+{
+	MDF_ANALGIN = 60,
+	MDF_ADRENALINE,
+	MDF_UGOL,
+	MDF_OZM_Antibiotick,
+	MDF_ADRENALINE_PILLS,
+	MDF_Obezbol,
+	MDF_HEAL_PILLS,
+	
+	COUNT,
+}

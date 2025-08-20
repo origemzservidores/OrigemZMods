@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{9AE281F0261445E5}OrigemZStore/data/carsimage/OffroadHatchback_Blue.edds"
+ Author "desktop-eehb8jr"
+ ChangeDate -147509001
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "OffroadHatchback_Blue.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

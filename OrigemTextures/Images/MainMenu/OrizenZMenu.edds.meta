@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{A95D4C399BB9746D}OrigenMainMenu/gui/MainMenu/Images/OrizenZMenu.edds"
+ Author "desktop-ip4utdk"
+ ChangeDate 1232465473
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "OrizenZMenu.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

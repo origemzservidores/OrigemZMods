@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>	
+	<inputs>
+		<actions>
+			<input name="ORZEnableSnap" loc="SnapOn Target" />
+			<input name="ORZLockOnTarget" loc="Lock Hologram" />
+			<input name="ORZRotatePoints" loc="Rotate snap Points" />			
+			<input name="ORZRotateHorizontal" loc="Rotate Z" />
+			<input name="ORZRotateVertical" loc="Rotate Y" />
+			<input name="ORZRotateAxis" loc="Rotate X" />
+			<input name="ORZResetRotation" loc="Reset" />
+			<input name="ORZRotationSpeed" loc="Change Rotation Speed" />
+
+			<input name="OZBBMoveUp" loc="Move Y+" />
+			<input name="OZBBMoveDown" loc="Move Y-" />
+			<input name="OZBBMoveLeft" loc="Move X-" />
+			<input name="OZBBMoveRight" loc="Move X+" />
+			<input name="OZBBMoveForward" loc="Move Z+" />
+			<input name="OZBBMoveBackward" loc="Move Z-" />
+
+            <input name="OpenSeguroCarro" loc="Abrir Seguro de Veiculo" />
+            <input name="OpenStoreOrigemZ" loc="Abrir Loja OrigemZ" />	
+		</actions>
+
+		<sorting name="ORIGEMZ" loc="ORIGEMZ">		
+			<input name="ORZEnableSnap"/>
+			<input name="ORZLockOnTarget"/>
+			<input name="ORZRotatePoints"/>
+			<input name="ORZRotateHorizontal"/>
+			<input name="ORZRotateVertical"/>
+			<input name="ORZRotateAxis"/>
+			<input name="ORZResetRotation"/>
+			<input name="ORZRotationSpeed"/>
+
+			<input name="OZBBMoveUp"/>
+			<input name="OZBBMoveDown"/>
+			<input name="OZBBMoveLeft"/>
+			<input name="OZBBMoveRight"/>
+			<input name="OZBBMoveForward"/>
+			<input name="OZBBMoveBackward"/>
+
+            <input name="OpenSeguroCarro"/>
+            <input name="OpenStoreOrigemZ"/>
+		</sorting>		
+	</inputs>
+	<preset>
+        <input name="ORZEnableSnap">
+            <btn name="kF"/>			
+        </input>
+		<input name="ORZLockOnTarget">
+            <btn name="kL"/>			
+        </input>
+		<input name="ORZRotatePoints">
+            <btn name="kR"/>			
+        </input>
+		<input name="ORZRotateHorizontal">
+            <btn name="kUp"/>			
+        </input>
+		<input name="ORZRotateVertical">
+            <btn name="kRight"/>			
+        </input>
+		<input name="ORZRotateAxis">
+            <btn name="kDown"/>			
+        </input>
+		<input name="ORZResetRotation">
+            <btn name="kHome"/>			
+        </input>
+		<input name="ORZRotationSpeed">
+            <btn name="kJ"/>			
+        </input>
+		<input name="OZBBMoveUp">
+			<btn name="kPrior"/>
+		</input>
+		<input name="OZBBMoveDown">
+			<btn name="kNext"/>
+		</input>
+		<input name="OZBBMoveLeft">
+			<btn name="kLShift">
+				<btn name="kLeft"/>
+			</btn>
+		</input>
+		<input name="OZBBMoveRight">
+			<btn name="kLShift">
+				<btn name="kRight"/>
+			</btn>
+		</input>
+		<input name="OZBBMoveForward">
+			<btn name="kLShift">
+				<btn name="kUp"/>
+			</btn>
+		</input>
+		<input name="OZBBMoveBackward">
+			<btn name="kLShift">
+				<btn name="kDown"/>
+			</btn>
+		</input>
+        <input name="OpenSeguroCarro">
+            <btn name="kY"/>				
+        </input>
+        <input name="OpenStoreOrigemZ">
+            <btn name="kT"/>			
+        </input>
+	</preset>
+</modded_inputs>

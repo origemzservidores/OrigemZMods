@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{1148CFCB5AC1693E}OrigemZUI/GUI/Images/Bakcgrounds_Loadscreens/loading_vanilla.edds"
+ Author "signote"
+ ChangeDate -1369099684
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "loading_vanilla.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{4B578CCA92DD7B53}OrigemZUI/GUI/Images/parocinadores/tela_fila_redragon.edds"
+ Author "signote"
+ ChangeDate 241939047
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "tela_fila_redragon.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

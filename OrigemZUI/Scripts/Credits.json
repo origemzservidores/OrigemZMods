@@ -1,0 +1,59 @@
+{
+    "Departments": 
+    [
+        {
+            "DepartmentName": "Desenvolvimento",
+            "Sections": 
+            [
+                {
+                    "SectionName": "Mods & Scripts",
+                    "SectionLines": [
+                        "SigWar"
+                    ]
+                },
+                {
+                    "SectionName": "Server Configuration",
+                    "SectionLines": [
+                        "FaGames",
+                        "KiweyX",
+                        "SigWar",
+                        "OrigemZ Community"
+                    ]
+                },
+                {
+                    "SectionName": "Atendimento",
+                    "SectionLines": [
+                        "Piske",
+                        "KiweyX",
+                        "Derror",
+                        "Max",
+                        "Chip",
+                        "Loretto",
+                        "Ragnar",
+                        "SigWar",
+                        "FaGames"
+                    ]
+                },
+                {
+                    "SectionName": "Website",
+                    "SectionLines": [
+                        "Thomas",
+                        "Integrações: SigWar"
+                    ]
+                },
+                {
+                    "SectionName": "Discord Bots",
+                    "SectionLines": [
+                        "Jorge"
+                    ]
+                },
+                {
+                    "SectionName": "Media & Marketing",
+                    "SectionLines": [
+                        "Piske"
+                    ]
+                }
+            ]
+        }
+    ]
+}

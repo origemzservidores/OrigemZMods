@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{C8827595F8BD61CC}OrigemZUI/GUI/Images/InGameCorner.edds"
+ Author "signote"
+ ChangeDate 730051163
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "InGameCorner.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{A3C09198CC28E107}OrigemZUI/GUI/Images/logos/oz_discord_nova.edds"
+ Author "signote"
+ ChangeDate -958107045
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "oz_discord_nova.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

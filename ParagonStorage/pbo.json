@@ -1,0 +1,22 @@
+{
+    "compress": {
+        "exclude": [
+        ],
+        "include": [
+        ]
+    },
+    "headers": [
+        {
+            "name": "prefix",
+            "value": "ParagonStorage"
+        },
+        {
+            "name": "Mikero",
+            "value": "DePbo.dll.9.91"
+        },
+        {
+            "name": "version",
+            "value": "25030919"
+        }
+    ]
+}

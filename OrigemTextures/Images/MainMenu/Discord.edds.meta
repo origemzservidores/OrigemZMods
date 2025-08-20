@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{12D4FC2E3038719D}OrigemMainMenu/gui/MainMenu/Images/Discord.edds"
+ Author "desktop-ip4utdk"
+ ChangeDate -1254363582
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Discord.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

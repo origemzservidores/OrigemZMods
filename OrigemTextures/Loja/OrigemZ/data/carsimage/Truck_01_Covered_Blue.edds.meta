@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E2C6244D303DE38B}OrigemZStore/data/carsimage/Truck_01_Covered_Blue.edds"
+ Author "desktop-eehb8jr"
+ ChangeDate -2026032905
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Truck_01_Covered_Blue.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

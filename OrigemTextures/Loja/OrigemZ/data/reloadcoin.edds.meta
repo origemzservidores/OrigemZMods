@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{B4103E948D548E4C}OrigemZStore/data/reloadcoin.edds"
+ Author "desktop-irkqrq7"
+ ChangeDate -1538019177
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "reloadcoin.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E247E2C56157432A}OrigemZUI/GUI/Images/parocinadores/Logo-Redragon.edds"
+ Author "signote"
+ ChangeDate 270250599
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Logo-Redragon.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{918BE9E2E106AF5E}OrigemMainMenu/gui/MainMenu/Images/Facebook.edds"
+ Author "desktop-ip4utdk"
+ ChangeDate -818155966
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Facebook.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

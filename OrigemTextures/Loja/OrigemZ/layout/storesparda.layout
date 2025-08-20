@@ -1,0 +1,805 @@
+FrameWidgetClass root {
+ color 1 1 1 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ {
+  ImageWidgetClass ImageBackground {
+   visible 1
+   ignorepointer 1
+   color 0.4902 0.4902 0.4902 0.9922
+   position 0 0
+   size 0.89905 976
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   imageTexture "{57AFC732366A3363}OrigemTextures/Loja/OrigemZ/data/background.edds"
+   mode blend
+   "src alpha" 1
+   "stretch mode" stretch_w_h
+   {
+    PanelWidgetClass PanelTop {
+     ignorepointer 1
+     color 0.0353 0.0353 0.0353 0
+     position -1.94649 3.39201
+     size 0.9984 0.1489
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+     {
+      ProgressBarWidgetClass Line {
+       ignorepointer 1
+       color 0.8196 0 0 1
+       size 1 0.018
+       halign center_ref
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Stamina
+       current 100
+      }
+      ImageWidgetClass ImageLogo {
+       ignorepointer 1
+       position 0 6
+       size 532.396 124.749
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       imageTexture "{8D3306A5228601A6}OrigemTextures/Loja/OrigemZ/data/orgiemz_shop.edds"
+       mode additive
+       "src alpha" 1
+       "stretch mode" stretch_w_h
+       "flip u" 0
+       "flip v" 0
+       nocache 0
+      }
+      ImageWidgetClass IconCoin {
+       ignorepointer 1
+       position 244 35
+       size 75.32 70
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       imageTexture "{99371E0ED8564D29}OrigemTextures/Loja/OrigemZ/data/oz_coin.edds"
+       mode additive
+       "src alpha" 1
+       "clamp mode" wrap
+       "stretch mode" stretch_w_h
+      }
+      TextWidgetClass TextCoin {
+       ignorepointer 1
+       color 1 0.9098 0.098 1
+       position 0.02696 0.32068
+       size 0.10964 0.3256
+       halign right_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Bold
+       text "0"
+       "exact text" 0
+       "size to text h" 0
+       "size to text v" 1
+       "text valign" center
+      }
+      ButtonWidgetClass ButtonReload {
+       visible 1
+       color 0.5216 0.0549 0.0549 0.9412
+       position 217.83 38.442
+       size 230 59.5
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style Editor
+       text "                       RECARREGUE AQUI"
+       {
+        ImageWidgetClass IconReload {
+         inheritalpha 0
+         ignorepointer 1
+         position 6.43998 0
+         size 63.04 60
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         imageTexture "{B4103E948D548E4C}OrigemTextures/Loja/OrigemZ/data/reloadcoin.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+         "flip u" 0
+         "flip v" 0
+         nocache 0
+        }
+       }
+      }
+     }
+    }
+    PanelWidgetClass PanelDown {
+     ignorepointer 1
+     color 0.0314 0.0314 0.0314 0
+     position -0.96659 -0.00002
+     size 0.99881 85.904
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     style rover_sim_colorable
+     {
+      TextWidgetClass TextNamePlayer {
+       ignorepointer 1
+       position 0.02469 0.47479
+       size 0.40055 0.3605
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Bold
+       text "Survivor"
+       "exact text" 0
+       "size to text h" 1
+       "size to text v" 0
+       "text valign" center
+      }
+      TextWidgetClass TextID64 {
+       ignorepointer 1
+       position 0.02469 0.1387
+       size 0 0.3
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Normal
+       text "76525425646566565"
+       "exact text" 0
+       "size to text h" 1
+       "size to text v" 1
+       "text halign" center
+       "text valign" center
+      }
+      TextWidgetClass TextInfo {
+       ignorepointer 1
+       size 0.04611 0.40242
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Light
+       "exact text" 0
+       "size to text h" 1
+       "size to text v" 1
+       "text halign" center
+       "text valign" center
+      }
+      ProgressBarWidgetClass LineDown {
+       ignorepointer 1
+       color 0.8196 0 0 1
+       size 1 0.018
+       halign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Stamina
+       current 100
+      }
+     }
+    }
+    PanelWidgetClass PanelMain {
+     ignorepointer 1
+     color 0 0 0 0.6627
+     position 0.0517 0.03312
+     size 0.88392 0.75015
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style DayZDefaultPanel
+     {
+      PanelWidgetClass PanelCars {
+       visible 0
+       ignorepointer 1
+       color 0 0 0 0.2824
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DayZDefaultPanel
+       {
+        ScrollWidgetClass ScrollItemsV {
+         ignorepointer 0
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         "Scrollbar V" 1
+         {
+          WrapSpacerWidgetClass ContentVehicle {
+           ignorepointer 1
+           position 0 0
+           size 0.98 0.94
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           Padding 10
+           "Size To Content H" 1
+           "Size To Content V" 1
+           content_halign center
+           content_valign center
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass PanelBase {
+       visible 0
+       ignorepointer 1
+       color 0 0 0 0.2824
+       position 0 0
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DayZDefaultPanel
+       {
+        ScrollWidgetClass ScrollItemsBase {
+         ignorepointer 0
+         position 0 0
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         "Scrollbar V" 1
+         {
+          WrapSpacerWidgetClass ContentBase {
+           ignorepointer 1
+           position 0 0
+           size 0.98 0.94
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           Padding 10
+           "Size To Content H" 1
+           "Size To Content V" 1
+           content_halign center
+           content_valign center
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass PanelItems {
+       visible 0
+       ignorepointer 1
+       color 0 0 0 0.2824
+       position 0 0
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       style DayZDefaultPanel
+       {
+        ScrollWidgetClass ScrollItems {
+         ignorepointer 0
+         position 0 0
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         "Scrollbar V" 1
+         {
+          WrapSpacerWidgetClass ContentItems {
+           visible 1
+           ignorepointer 1
+           position 0 0
+           size 0.98 0.94
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           Padding 10
+           "Size To Content H" 1
+           "Size To Content V" 1
+           content_halign center
+           content_valign center
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass PanelHeli {
+       visible 0
+       ignorepointer 1
+       color 0 0 0 0.2824
+       position 0 0
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DayZDefaultPanel
+       {
+        ScrollWidgetClass ScrollItemsHeli {
+         ignorepointer 0
+         position 0 0
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         "Scrollbar V" 1
+         {
+          WrapSpacerWidgetClass ContentHeli {
+           ignorepointer 1
+           position 0 0
+           size 0.98 0.94
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           Padding 10
+           "Size To Content H" 1
+           "Size To Content V" 1
+           content_halign center
+           content_valign center
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass PanelRoupas {
+       visible 0
+       ignorepointer 1
+       color 0 0 0 0.2824
+       position 0 0
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       style DayZDefaultPanel
+       {
+        ScrollWidgetClass ScrollRoupas {
+         ignorepointer 0
+         position 0 0
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         "Scrollbar V" 1
+         {
+          WrapSpacerWidgetClass ContentRoupas {
+           ignorepointer 1
+           position 0 0
+           size 0.98 0.94
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           Padding 10
+           "Size To Content H" 1
+           "Size To Content V" 1
+           content_halign center
+           content_valign center
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass PanelParts {
+       visible 0
+       ignorepointer 1
+       color 0 0 0 0.2824
+       position 0 0
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       style DayZDefaultPanel
+       {
+        ScrollWidgetClass ScrollParts {
+         ignorepointer 0
+         position 0 0
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         "Scrollbar V" 1
+         {
+          WrapSpacerWidgetClass ContentParts {
+           ignorepointer 1
+           position 0 0
+           size 0.98 0.94
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           Padding 10
+           "Size To Content H" 1
+           "Size To Content V" 1
+           content_halign center
+           content_valign center
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    ButtonWidgetClass ButtonClose {
+     color 0.698 0.051 0.051 1
+     position 29.904 37.712
+     size 56.5408 55.4631
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Editor
+     "no focus" 0
+     text "X"
+    }
+    WrapSpacerWidgetClass WrapSpacerWidgetButtons {
+     ignorepointer 1
+     color 0 0 0 0.6667
+     position -769.32404 153.976
+     size 185.55901 731.97406
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Colorable
+     Padding 40
+     Margin 40
+     content_halign center
+     {
+      ButtonWidgetClass ButtonItems {
+       color 0.3059 0.3059 0.3059 1
+       position 240.976 138.489
+       size 148 74
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style Editor
+       text "                ITENS"
+       switch normal
+       {
+        ImageWidgetClass IconItems {
+         ignorepointer 1
+         position 10 0
+         size 60 60
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         imageTexture "{8C606D53B7DB76A0}OrigemTextures/Loja/OrigemZ/data/itemicon.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+        }
+       }
+      }
+      ButtonWidgetClass ButtonRoupas {
+       visible 1
+       color 0.3059 0.3059 0.3059 1
+       position 433.91998 138.489
+       size 148 74.5
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style Editor
+       text "                    ROUPAS"
+       switch normal
+       {
+        ImageWidgetClass IconRoupas {
+         ignorepointer 1
+         position 10 0
+         size 60 60
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         imageTexture "{B9787EF2186DBA8F}OrigemTextures/Loja/OrigemZ/data/clothingicon.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+        }
+       }
+      }
+      ButtonWidgetClass ButtonCars {
+       color 0.3059 0.3059 0.3059 1
+       position 631.29004 138.489
+       size 148 74.5
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style Editor
+       text "                     CARROS"
+       {
+        ImageWidgetClass IconCars {
+         ignorepointer 1
+         position 10 0
+         size 60 60
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         imageTexture "{F7B8D95A42152167}OrigemTextures/Loja/OrigemZ/data/iconcar.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+        }
+       }
+      }
+      ButtonWidgetClass ButtonHeli {
+       visible 1
+       color 0.3059 0.3059 0.3059 1
+       position 828.33997 138.489
+       size 148 74.5
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style Editor
+       text "              HELI"
+       {
+        ImageWidgetClass IconHeli {
+         ignorepointer 1
+         position 10 0
+         size 60 60
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         imageTexture "{08247405E782A7AA}OrigemTextures/Loja/OrigemZ/data/heli.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+        }
+       }
+      }
+      ButtonWidgetClass ButtonBase {
+       color 0.3059 0.3059 0.3059 1
+       position 1222.81995 138.489
+       size 148 74.5
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style Editor
+       text "              BASE"
+       {
+        ImageWidgetClass IconBase {
+         visible 1
+         clipchildren 1
+         inheritalpha 0
+         ignorepointer 1
+         position 10 0
+         size 60 60
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         scaled 1
+         imageTexture "{87B1AC400A3BA9B6}OrigemTextures/Loja/OrigemZ/data/iconbase.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+         "flip u" 0
+         "flip v" 0
+         filter 1
+         nocache 0
+        }
+       }
+      }
+      ButtonWidgetClass ButtonParts {
+       visible 1
+       color 0.3059 0.3059 0.3059 1
+       position 1418.65002 138.48999
+       size 148 74.5
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style Editor
+       text "                    PARTES"
+       {
+        ImageWidgetClass IconParts {
+         inheritalpha 0
+         ignorepointer 1
+         position 9.99998 0
+         size 63.04 60
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         imageTexture "{91022DAB52C877A2}OrigemTextures/Loja/OrigemZ/data/iconparts.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+         "flip u" 0
+         "flip v" 0
+         nocache 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass PanelWarning {
+   visible 0
+   disabled 0
+   clipchildren 1
+   ignorepointer 0
+   ignoregloballv 0
+   color 0.0471 0.0471 0.0471 1
+   position 0 0
+   size 0.41404 0.18823
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   priority 10
+   style rover_sim_colorable
+   "no focus" 0
+   {
+    CanvasWidgetClass CanvasWidget {
+     visible 1
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     {
+      TextWidgetClass Aviso {
+       ignorepointer 1
+       position 0.00376 0.031
+       size 0.97861 0.20732
+       halign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       scaled 1
+       draggable 0
+       style Bold
+       text "Tem certeza que deseja comprar esse item ?"
+       "exact text" 0
+       "size to text h" 0
+       "size to text v" 0
+       "text halign" center
+       "text valign" center
+      }
+      ButtonWidgetClass ButtonYes {
+       color 0.2549 0.651 0.1569 1
+       position 0.05 0.1862
+       size 0.27453 0.24022
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Editor
+       text "SIM"
+      }
+      ButtonWidgetClass ButtonNo {
+       color 0.6314 0.0667 0.0667 1
+       position 0.05 0.1862
+       size 0.27453 0.23428
+       halign right_ref
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Editor
+       text "NAO"
+      }
+      ProgressBarWidgetClass Line0 {
+       ignorepointer 1
+       color 0.8706 0.0784 0.0784 1
+       position 0 0.28
+       size 1 0.02
+       halign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Stamina
+       current 100
+      }
+     }
+    }
+   }
+  }
+ }
+}

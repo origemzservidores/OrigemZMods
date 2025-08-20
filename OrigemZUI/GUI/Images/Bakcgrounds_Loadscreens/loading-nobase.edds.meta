@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{B8C9DCBEA8A42A70}OrigemZUI/GUI/Images/Bakcgrounds_Loadscreens/loading-nobase.edds"
+ Author "signote"
+ ChangeDate -926354746
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "loading-nobase.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

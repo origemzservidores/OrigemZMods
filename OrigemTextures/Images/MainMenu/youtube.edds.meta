@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{A4B39F25DBD50884}OrigemTextures/Images/MainMenu/youtube.edds"
+ Author "pcleo"
+ ChangeDate 1989963341
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "youtube.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{A81AD89AA028AA60}OrigemTextures/Images/MainMenu/menufa.edds"
+ Author "pcleo"
+ ChangeDate -1512345715
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "menufa.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

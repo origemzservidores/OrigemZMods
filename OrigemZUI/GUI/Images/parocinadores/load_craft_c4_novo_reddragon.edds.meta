@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{9C168C91D447708C}OrigemZUI/GUI/Images/parocinadores/load_craft_c4_novo_reddragon.edds"
+ Author "signote"
+ ChangeDate 650883687
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "load_craft_c4_novo_reddragon.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

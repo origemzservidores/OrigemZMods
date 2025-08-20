@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{5D9CF437DD8572B3}OrigemTextures/Images/Loadscreen/Fila.edds"
+ Author "pcleo"
+ ChangeDate -1491374195
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Fila.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

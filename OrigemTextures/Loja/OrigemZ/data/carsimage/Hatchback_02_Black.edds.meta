@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{696B6B9BAA882554}OrigemZStore/data/carsimage/Hatchback_02_Black.edds"
+ Author "desktop-eehb8jr"
+ ChangeDate -281726729
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Hatchback_02_Black.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

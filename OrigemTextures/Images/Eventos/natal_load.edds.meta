@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{69B7F5D2D49FCC9A}OrigemTextures/Images/Eventos/natal_load.edds"
+ Author "signote"
+ ChangeDate 557003147
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "natal_load.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

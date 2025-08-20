@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{8C0E5B1FC9564A2A}OrigemTextures/Images/Loadscreen/loadingFa.edds"
+ Author "signote"
+ ChangeDate 297562680
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "loadingFa.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

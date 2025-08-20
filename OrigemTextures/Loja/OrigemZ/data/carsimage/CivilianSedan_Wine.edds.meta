@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3515B1027D46EE61}OrigemZStore/data/carsimage/CivilianSedan_Wine.edds"
+ Author "desktop-eehb8jr"
+ ChangeDate -348835593
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "CivilianSedan_Wine.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

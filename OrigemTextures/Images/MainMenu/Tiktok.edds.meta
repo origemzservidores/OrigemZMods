@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{EF227628A3E76B52}OrigemTextures/Images/MainMenu/Tiktok.edds"
+ Author "pcleo"
+ ChangeDate 397684301
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Tiktok.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

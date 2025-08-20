@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{047882590416D693}OrigemTextures/Images/MainMenu/wallpapper-removebg-preview.edds"
+ Author "pcleo"
+ ChangeDate -1385386418
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "wallpapper-removebg-preview.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}
