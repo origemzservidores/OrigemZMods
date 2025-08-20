@@ -47,6 +47,16 @@ class cfgVehicles
 	class TShirt_ColorBase;
 	
 	//TShirt
+	class OZ_Tshirt_Redragon: TShirt_ColorBase
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"OrigemAssets\Backpacks\data\tshirt_ground_redragon_co.paa",
+			"OrigemAssets\Backpacks\data\tshirt_redragon_co.paa",
+			"OrigemAssets\Backpacks\data\tshirt_redragon_co.paa"
+		};
+	};
 	class OZ_Tshirt_Black: TShirt_ColorBase
 	{
 		scope=2;
