@@ -4,6 +4,7 @@ modded class Pliers
 	{
 		super.SetActions();
 
+		AddAction(ActionDisassembleGrill); 
 		AddAction(ActionDismantleTcrateBlack);
 		AddAction(ActionDismantleTcrateGrey);
 		AddAction(ActionDismantleTcrateTan);
@@ -139,6 +140,7 @@ modded class Screwdriver
 	{
 		super.SetActions();
 
+		AddAction(ActionDisassembleGrill); 
 		AddAction(ActionDismantleTcrateBlack);
 		AddAction(ActionDismantleTcrateGrey);
 		AddAction(ActionDismantleTcrateTan);
@@ -275,6 +277,7 @@ modded class Hammer
 	{
 		super.SetActions();
 
+		AddAction(ActionDisassembleGrill); 
 		AddAction(ActionDismantleTcrateBlack);
 		AddAction(ActionDismantleTcrateGrey);
 		AddAction(ActionDismantleTcrateTan);
