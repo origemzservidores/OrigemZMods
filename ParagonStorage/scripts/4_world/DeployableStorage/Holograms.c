@@ -517,7 +517,14 @@ modded class Hologram
 		{
 			return "Paragon_Weapons_Rack_Green";
 		}
-
+		if ( item_in_hands.IsInherited( StorageBox_WellPump ))
+		{
+			return "Paragon_WellPump";
+		}
+		if ( item_in_hands.IsInherited( StorageBox_FuelPump ))
+		{
+			return "Paragon_FuelPump";
+		}
 
 		return super.ProjectionBasedOnParent();
 	}
@@ -1286,6 +1293,18 @@ modded class Hologram
 			}
 			
 			if ( item_in_hands.IsInherited( StorageBox_Weapons_Rack_Green ))
+			{
+				SetIsColliding(false);
+				return;
+			}
+
+			if ( item_in_hands.IsInherited( StorageBox_WellPump ))
+			{
+				SetIsColliding(false);
+				return;
+			}
+
+			if ( item_in_hands.IsInherited( StorageBox_FuelPump ))
 			{
 				SetIsColliding(false);
 				return;
