@@ -18,7 +18,7 @@ class CfgVehicles
 		scope=0;
 		displayName = "Fuel Pump ColorBase";
 		descriptionShort = "Bomba de combustível utilizada para extrair e armazenar combustível. Essencial para abastecimento de veículos.";
-		model="\ParagonStorage\FuelPump\Data\Fuel_Pump.p3d";
+		model="\ParagonStorage\FuelPump\Data\FuelPump.p3d";
 		physLayer = "item_large";
 		class AnimationSources
 		{
