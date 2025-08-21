@@ -529,6 +529,10 @@ modded class Hologram
 		{
 			return "Paragon_Grill";
 		}
+		if ( item_in_hands.IsInherited( StorageBox_SolarPanel ))
+		{
+			return "Paragon_SolarPanel";
+		}
 
 		return super.ProjectionBasedOnParent();
 	}
@@ -1315,6 +1319,12 @@ modded class Hologram
 			}
 
 			if ( item_in_hands.IsInherited( StorageBox_Grill ))
+			{
+				SetIsColliding(false);
+				return;
+			}
+
+			if ( item_in_hands.IsInherited( StorageBox_SolarPanel ))
 			{
 				SetIsColliding(false);
 				return;

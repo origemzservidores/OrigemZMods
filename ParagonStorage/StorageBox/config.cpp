@@ -222,6 +222,16 @@ class cfgVehicles
 			"ParagonStorage\StorageBox\data\StorageBox_Grill.paa"
 		};
 	};
+	class StorageBox_SolarPanel: StorageBox_ColorBase
+	{
+		scope=2;
+		displayName="Solar Panel Box";
+		descriptionShort="Kit de Painel Solar.";
+		hiddenSelectionsTextures[]=
+		{
+			"ParagonStorage\StorageBox\data\StorageBox_SolarPanel.paa"
+		};
+	};
 	class StorageBox_Tcrate_Black: StorageBox_ColorBase
 	{
 		scope=2;

@@ -4,6 +4,7 @@ modded class ActionConstructor
     {
         super.RegisterActions(actions);
         //Dismantle Actions
+		actions.Insert(ActionTurnOffSolarPanel);
 		actions.Insert(ActionDismantleTcrateBlack);
 		actions.Insert(ActionDismantleTcrateGrey);
 		actions.Insert(ActionDismantleTcrateTan);
