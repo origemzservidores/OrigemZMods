@@ -1,0 +1,78 @@
+FrameWidgetClass HudFrameWidget {
+ clipchildren 0
+ position 0 0
+ size 0.9 0.9
+ halign center_ref
+ valign center_ref
+ hexactsize 0
+ vexactsize 0
+ {
+  PanelWidgetClass HudPanel {
+   visible 1
+   clipchildren 0
+   inheritalpha 0
+   position -0.00144 -0.00051
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   scaled 1
+   {
+    PanelWidgetClass TrophyMenu {
+     clipchildren 0
+     inheritalpha 0
+     position 0.79398 452.63901
+     size 59.2329 63.8198
+     halign right_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scaled 1
+     style blank
+     "no focus" 0
+     {
+      ImageWidgetClass Trophy {
+       position 10.8902 19.6352
+       size 39.5845 40.5213
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       scaled 1
+       image0 ""
+       imageTexture "{7247194CB26C0795}OrigemZTrophy/Data/Hud/Trophy.edds"
+       mode blend
+       "src alpha" 1
+       "stretch mode" stretch_w_h
+       "flip u" 0
+       "flip v" 0
+       filter 1
+       nocache 0
+       Mask "{48BFB4B086E16C62}gui/textures/cardial_small_mask.edds"
+       "Transition width" 0
+      }
+      TextWidgetClass Count {
+       ignorepointer 1
+       position 1.71005 -22.5189
+       size 34.6772 15.7361
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "000"
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+ }
+}

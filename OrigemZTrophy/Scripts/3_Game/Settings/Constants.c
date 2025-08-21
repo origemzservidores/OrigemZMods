@@ -1,0 +1,4 @@
+const string TROPHY_CONFIG_ROOT_SERVER = "$profile:OrigemZ\\";
+const string TROPHY_CONFIG_DIR_SERVER = TROPHY_CONFIG_ROOT_SERVER + "Trophy\\";
+const string TROPHY_CONFIG_DATABASE_DIR = TROPHY_CONFIG_DIR_SERVER + "DataBase\\";
+const string TROPHY_CONFIG_FILENAME = TROPHY_CONFIG_DIR_SERVER + "Trophy.json";
