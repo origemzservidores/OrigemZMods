@@ -4,6 +4,7 @@ class CfgPatches
 	{
 		units[]=
 		{
+			"OZ_Tshirt_Redragon",
 			"OZ_Tshirt_Black",
 			"OZ_Tshirt_ImFriendly",
 			"OZ_BomberJacket_Origem",
