@@ -1,12 +1,3 @@
-////////////////////////////////////////////////////////////////////
-//DeRap: Tower\config.bin
-//Produced from mikero's Dos Tools Dll version 9.10
-//https://mikero.bytex.digital/Downloads
-//'now' is Fri May 19 20:15:46 2023 : 'file' last modified on Wed Dec 31 21:00:00 1969
-////////////////////////////////////////////////////////////////////
-
-#define _ARMA_
-
 class CfgPatches
 {
 	class OriginZBillboards
@@ -31,14 +22,21 @@ class CfgVehicles
 	{
 		scope = 1;
 		hiddenSelections[]= {"camo_03"};
-		hiddenSelectionsTextures[]= {"OrigemZBillboards\Billboards\Billboard_01\Data\camo_03_co.paa"};
+		hiddenSelectionsTextures[]= {"OrigemZBillboards\Billboards\Billboard_01\Data\camo_Redragon_co.paa"};
 	};
 	
 	// Exemplo (Substituir Apenas hiddenSelectionsTextures)
-	class OZ_Billboard_02: OZ_Billboard_Base
+	class OZ_Billboard_Echo: OZ_Billboard_Base
 	{
 		scope = 1;
 		hiddenSelections[]= {"camo_03"};
-		hiddenSelectionsTextures[]= {"OrigemZBillboards\Billboards\Billboard_01\Data\camo_04_co.paa"};
+		hiddenSelectionsTextures[]= {"OrigemZBillboards\Billboards\Billboard_01\Data\camo_Echo_co.paa"};
+	};
+
+	class OZ_Billboard_Ecxon: OZ_Billboard_Base
+	{
+		scope = 1;
+		hiddenSelections[]= {"camo_03"};
+		hiddenSelectionsTextures[]= {"OrigemZBillboards\Billboards\Billboard_01\Data\camo_Ecxon_co.paa"};
 	};
 };
