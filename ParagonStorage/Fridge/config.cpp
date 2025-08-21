@@ -39,6 +39,15 @@ class CfgVehicles
 			"Camo2",
 			"Camo3"
 		};
+		class EnergyManager
+		{
+			hasIcon=1;
+			energyUsagePerSecond=0.25;
+			cordLength=5;
+			plugType=1 + 2;
+			attachmentAction=1;
+			updateInterval=50;
+		};
 		class DamageSystem
 		{
 			class GlobalHealth
@@ -188,4 +197,76 @@ class CfgVehicles
 			"ParagonStorage\Fridge\data\Glass.rvmat.paa"
 		};
 	};
+};
+
+class CfgSoundSets
+{
+	class baseCharacter_SoundSet;
+		
+	class frigeTurnOn_SoundSet: baseCharacter_SoundSet
+	{
+		soundShaders[]=
+		{
+			"frigeTurnOn_Soundshader"
+		};
+	};
+	class frigeTurnOff_SoundSet: baseCharacter_SoundSet
+	{
+		soundShaders[]=
+		{
+			"frigeTurnOff_Soundshader"
+		};
+	};
+	class frigeLoop_SoundSet: baseCharacter_SoundSet
+	{
+		soundShaders[]=
+		{
+			"frigeLoop_Soundshader"
+		};
+	};
+};
+
+class CfgSoundShaders
+{
+    class baseCharacter_SoundShader;
+	
+	class frigeTurnOn_Soundshader: baseCharacter_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"ParagonStorage\Sounds\FridgeTurnOn",
+				1
+			}
+		};
+		volume=0.39810717;
+		range=20;
+	};
+	class frigeTurnOff_Soundshader: baseCharacter_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"ParagonStorage\Sounds\FridgeTurnOff",
+				1
+			}
+		};
+		volume=0.39810717;
+		range=20;
+	};
+	class frigeLoop_Soundshader: baseCharacter_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"ParagonStorage\Sounds\FridgeLoop",
+				1
+			}
+		};
+		volume=0.39810717;
+		range=20;
+	};	
 };

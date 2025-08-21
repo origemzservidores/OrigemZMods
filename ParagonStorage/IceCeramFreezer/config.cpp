@@ -37,6 +37,15 @@ class CfgVehicles
 			"Camo",
 			"Camo2"
 		};
+		class EnergyManager
+		{
+			hasIcon=1;
+			energyUsagePerSecond=0.25;
+			cordLength=5;
+			plugType=1 + 2;
+			attachmentAction=1;
+			updateInterval=50;
+		};
 		class DamageSystem
 		{
 			class GlobalHealth
