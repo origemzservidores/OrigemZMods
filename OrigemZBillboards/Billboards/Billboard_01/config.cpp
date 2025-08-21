@@ -38,7 +38,7 @@ class CfgVehicles
 	class OZ_Billboard_02: OZ_Billboard_Base
 	{
 		scope = 1;
-		hiddenSelections[]= {"camo_04"};
+		hiddenSelections[]= {"camo_03"};
 		hiddenSelectionsTextures[]= {"OrigemZBillboards\Billboards\Billboard_01\Data\camo_04_co.paa"};
 	};
 };
