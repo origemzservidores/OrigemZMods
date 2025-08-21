@@ -4,7 +4,7 @@ class Pack_WellPump extends RecipeBase
     {
         m_Name = "Desmontar WellPump";
         m_IsInstaRecipe = false; 
-        m_AnimationLength = 0.6; 
+        m_AnimationLength = 0.8; 
         m_Specialty = -0.03; 
         
         // CONDIÇÕES
