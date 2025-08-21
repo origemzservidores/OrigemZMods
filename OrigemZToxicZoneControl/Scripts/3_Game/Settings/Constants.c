@@ -1,0 +1,3 @@
+const string TOXICZONE_CONFIG_ROOT_SERVER = "$profile:OrigemZ\\";
+const string TOXICZONE_CONFIG_DIR_SERVER = TOXICZONE_CONFIG_ROOT_SERVER + "ToxicZoneControl\\";
+const string TOXICZONE_CONFIG_FILENAME = TOXICZONE_CONFIG_DIR_SERVER + "ToxicZoneControl.json";
