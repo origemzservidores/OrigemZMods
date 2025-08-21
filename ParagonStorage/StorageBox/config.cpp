@@ -133,7 +133,8 @@ class CfgPatches
 			"StorageBox_WallRack_Tan",
 			"StorageBox_Weapons_Rack_Black",
 			"StorageBox_Weapons_Rack_Green",
-			"StorageBox_Weapons_Rack_Tan"
+			"StorageBox_Weapons_Rack_Tan",
+			"StorageBox_WellPump"
 		};
 		weapons[]={};
 	};
@@ -188,6 +189,27 @@ class cfgVehicles
 					id=898;
 				};
 			};
+		};
+	};
+	//---------- NOVOS ITENS -----------//
+	class StorageBox_WellPump: StorageBox_ColorBase
+	{
+		scope=2;
+		displayName="Well Pump Box";
+		descriptionShort="Kit de Bomba de Poço.";
+		hiddenSelectionsTextures[]=
+		{
+			"ParagonStorage\StorageBox\data\StorageBox_WellPump.paa"
+		};
+	};
+	class StorageBox_FuelPump: StorageBox_ColorBase
+	{
+		scope=2;
+		displayName="Fuel Pump Box";
+		descriptionShort="Kit de Bomba de Combustível.";
+		hiddenSelectionsTextures[]=
+		{
+			"ParagonStorage\StorageBox\data\StorageBox_FuelPump.paa"
 		};
 	};
 	class StorageBox_Tcrate_Black: StorageBox_ColorBase
