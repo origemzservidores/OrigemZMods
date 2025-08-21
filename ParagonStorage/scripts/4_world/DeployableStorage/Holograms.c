@@ -525,6 +525,10 @@ modded class Hologram
 		{
 			return "Paragon_FuelPump";
 		}
+		if ( item_in_hands.IsInherited( StorageBox_Grill ))
+		{
+			return "Paragon_Grill";
+		}
 
 		return super.ProjectionBasedOnParent();
 	}
@@ -1305,6 +1309,12 @@ modded class Hologram
 			}
 
 			if ( item_in_hands.IsInherited( StorageBox_FuelPump ))
+			{
+				SetIsColliding(false);
+				return;
+			}
+
+			if ( item_in_hands.IsInherited( StorageBox_Grill ))
 			{
 				SetIsColliding(false);
 				return;

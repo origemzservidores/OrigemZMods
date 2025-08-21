@@ -2,7 +2,7 @@ modded class ActionConstructor
 {
     override void RegisterActions(TTypenameArray actions)
     {
-        super.RegisterActions(actions);	
+        super.RegisterActions(actions);
         //Dismantle Actions
 		actions.Insert(ActionDismantleTcrateBlack);
 		actions.Insert(ActionDismantleTcrateGrey);

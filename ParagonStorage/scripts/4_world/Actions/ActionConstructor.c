@@ -10,6 +10,9 @@ modded class ActionConstructor
 		actions.Insert(ActionFurnitureOpen);
 		
 		actions.Insert(ActionDeleteContainerInstant);
+
+		actions.Insert(ActionDeleteFireplaceByHands);
+        actions.Insert(ActionDisassembleGrill);
 		
 		//CodeLock
 		#ifdef CodeLock

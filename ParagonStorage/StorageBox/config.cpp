@@ -212,6 +212,16 @@ class cfgVehicles
 			"ParagonStorage\StorageBox\data\StorageBox_FuelPump.paa"
 		};
 	};
+	class StorageBox_Grill: StorageBox_ColorBase
+	{
+		scope=2;
+		displayName="Grill Box";
+		descriptionShort="Kit de Churrasqueira.";
+		hiddenSelectionsTextures[]=
+		{
+			"ParagonStorage\StorageBox\data\StorageBox_Grill.paa"
+		};
+	};
 	class StorageBox_Tcrate_Black: StorageBox_ColorBase
 	{
 		scope=2;
