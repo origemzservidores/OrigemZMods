@@ -18,7 +18,7 @@ class CfgVehicles
 		scope=0;
 		displayName = "Well Pump ColorBase";
 		descriptionShort = "Bomba de poço utilizada para extrair água subterrânea. Essencial para abastecimento de água em áreas remotas.";
-		model="\ParagonStorage\WellPump\Data\Well_Pump.p3d";
+		model="\ParagonStorage\WellPump\Data\WellPump.p3d";
 		physLayer = "item_large";
 		class AnimationSources
 		{
