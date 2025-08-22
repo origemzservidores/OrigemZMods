@@ -22,15 +22,18 @@ class ActionTurnOffSolarPanel: ActionInteractBase
 		}
 	}
 
-	override void OnExecuteServer( ActionData action_data )
+	override void OnExecuteServer(ActionData action_data)
 	{
 		Object targetObject = action_data.m_Target.GetObject();
 		Paragon_SolarPanel_ColorBase solarpanel = Paragon_SolarPanel_ColorBase.Cast(targetObject);
-		if ( targetObject )
+		if (targetObject)
 		{
-			ItemBase target_IB = ItemBase.Cast( targetObject );
+			ItemBase target_IB = ItemBase.Cast(targetObject);
 			target_IB.GetCompEM().SwitchOff();
-			if (solarpanel){ solarpanel.GetCompEM().SwitchOn(); }
+			if (solarpanel)
+			{
+				solarpanel.GetCompEM().SwitchOn();
+			}
 		}
 	}
 };
