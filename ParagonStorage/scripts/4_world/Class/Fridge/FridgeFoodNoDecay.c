@@ -14,7 +14,6 @@ modded class PigSteakMeat extends Edible_Base
 		}
 		return super.CanDecay();
 	}
-	
 }
 
 modded class Lard extends Edible_Base
@@ -61,7 +60,6 @@ modded class Carp extends Edible_Base
 
 modded class CarpFilletMeat extends Edible_Base
 {
-	
 	override bool CanDecay()
 	{
 		ItemBase parent = ItemBase.Cast( GetHierarchyParent());
@@ -74,11 +72,8 @@ modded class CarpFilletMeat extends Edible_Base
 			}			
 		}
 	
-		
 		return super.CanDecay();
 	}
-	
-	
 }
 
 modded class MackerelFilletMeat extends Edible_Base

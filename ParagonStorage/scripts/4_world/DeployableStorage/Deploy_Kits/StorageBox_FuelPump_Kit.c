@@ -3,8 +3,6 @@ class StorageBox_FuelPump extends ItemBase
 	ref protected EffectSound 						m_DeployLoopSound;
 	protected Object								StorageBox_FuelPump1;
 
-
-
 	void StorageBox_FuelPump()
 	{
 		RegisterNetSyncVariableBool("m_IsSoundSynchRemote");
@@ -45,7 +43,7 @@ class StorageBox_FuelPump extends ItemBase
 	// ADVANCED PLACEMENT
 	//================================================================
 
-	override void OnPlacementComplete( Man player, vector position = "0 0 0", vector orientation = "0 0 0"  )
+	override void OnPlacementComplete ( Man player, vector position = "0 0 0", vector orientation = "0 0 0"  )
 	{
 		super.OnPlacementComplete( player, position, orientation );
 

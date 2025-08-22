@@ -4,7 +4,6 @@ class StorageBox_Grill extends ItemBase
 	protected Object								StorageBox_Grill1;
 
 
-
 	void StorageBox_Grill()
 	{
 		RegisterNetSyncVariableBool("m_IsSoundSynchRemote");
@@ -98,6 +97,7 @@ class StorageBox_Grill extends ItemBase
 	override void SetActions()
 	{
 		super.SetActions();
+
 		AddAction(ActionTogglePlaceObject);
 		AddAction(ActionDeployObject);
 	}

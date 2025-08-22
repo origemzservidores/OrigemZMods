@@ -45,7 +45,7 @@ class Paragon_SolarPanel_ColorBase extends PowerGeneratorBase
 		SEffectManager.DestroyEffect(m_Smoke);
 	}
 	//------------------------------
-	// MODIFICADO: Sempre liga, ignora teto e horário
+	// Sempre liga, ignora teto e horário
 	void CheckDaylight()
 	{
 		if (GetGame().IsServer())

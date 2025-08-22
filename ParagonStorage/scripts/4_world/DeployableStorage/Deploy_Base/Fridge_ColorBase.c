@@ -3,7 +3,6 @@ class Fridge_ColorBase : OZ_Container_Base
 	protected bool m_IsOpenedLocal;
 	private bool m_IsOpenable;
 
-    // Elétrico
     protected bool m_HavePower;
     PointLightBase m_Light;
 
