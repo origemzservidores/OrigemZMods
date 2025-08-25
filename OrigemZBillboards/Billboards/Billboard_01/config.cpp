@@ -26,6 +26,6 @@ class CfgVehicles
 	{
 		scope = 1;
 		hiddenSelections[]= {"camo_03"};
-		hiddenSelectionsTextures[]= {"OrigemZBillboards\Billboards\Billboard_01\Data\camo_03_co.paa"};
+		hiddenSelectionsTextures[]= {"OrigemZBillboards\Billboards\Billboard_01\Data\camo_Echo_Excon_co.paa"};
 	};
 };
