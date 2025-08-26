@@ -73,7 +73,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Grill";
-		descriptionShort = "Uma grelha robusta para cozinhar alimentos ao ar livre. Item exclusivo do servidor AmanhecerZ.";
+		descriptionShort = "Uma grelha robusta para cozinhar alimentos ao ar livre.";
 		hiddenSelectionsTextures[] = {"ParagonStorage\Grill\Data\Grill_co.paa","ParagonStorage\Grill\Data\Grill_co.paa"};
 	};
 };
