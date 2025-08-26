@@ -9,7 +9,6 @@ modded class ContaminatedTrigger
             if (pb)
             {
                 pb.AddContaminatedTrigger(this);
-                Print("[DEBUG][Trigger] Player " + pb + " entrou em " + this.GetType());
             }
         }
     }
@@ -23,7 +22,6 @@ modded class ContaminatedTrigger
             if (pb)
             {
                 pb.RemoveContaminatedTrigger(this);
-                Print("[DEBUG][Trigger] Player " + pb + " saiu de " + this.GetType());
             }
         }
     }

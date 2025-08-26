@@ -27,12 +27,7 @@ modded class AreaExposureMdfr
 
         if (!IsInStaticToxicZone(player))
         {
-            Print("[DEBUG][OnTick] Fora da zona estática. Não aplica efeitos do mod.");
             return;
-        }
-        else
-        {
-            Print("[DEBUG][OnTick] Dentro da zona estática! Efeitos do mod ativos.");
         }
 
         float unconThreshold = m_ToxicZoneSettings.SecondsToDeliverShockDamage;
@@ -55,7 +50,6 @@ modded class AreaExposureMdfr
             {
                 player.AddHealth("", "Shock", -m_ToxicZoneSettings.ShockDamage);
                 m_ShockTimer = 0;
-                Print("[DEBUG][OnTick] Dano da config do MOD sendo aplicado: -" + m_ToxicZoneSettings.ShockDamage + " Shock");
             }
         }
         else
@@ -74,7 +68,6 @@ modded class AreaExposureMdfr
 
         if (!IsInStaticToxicZone(player))
         {
-            Print("[DEBUG][BleedingSourceCreateCheck] Fora da zona estática. Usando vanilla.");
             super.BleedingSourceCreateCheck(player);
             return;
         }
@@ -85,8 +78,6 @@ modded class AreaExposureMdfr
         int maxCuts = 1;
         if (m_ToxicZoneSettings.BleedingSources > 0)
             maxCuts = m_ToxicZoneSettings.BleedingSources;
-
-        Print("[DEBUG][BleedingSourceCreateCheck] Criando cortes via MOD. Quantidade: " + maxCuts);
 
         for (int i = 0; i < maxCuts; i++)
         {
@@ -112,18 +103,15 @@ modded class AreaExposureMdfr
         ref array<ContaminatedTrigger> triggers = player.GetActiveContaminatedTriggers();
         if (!player || !triggers)
         {
-            Print("[DEBUG][IsInStaticToxicZone] Nenhuma lista de triggers ativa.");
             return false;
         }
         foreach (ContaminatedTrigger trig : triggers)
         {
             if (trig && trig.IsInherited(ContaminatedTrigger) && !trig.IsInherited(ContaminatedTrigger_Dynamic) && !trig.IsInherited(ContaminatedTrigger_Local))
             {
-                Print("[DEBUG][IsInStaticToxicZone] Trigger é ContaminatedTrigger (zona estática vanilla).");
                 return true;
             }
         }
-        Print("[DEBUG][IsInStaticToxicZone] Nenhum trigger estático ativo.");
         return false;
     }
 }
