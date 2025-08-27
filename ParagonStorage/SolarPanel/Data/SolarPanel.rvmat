@@ -1,3 +1,12 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: SolarPanel\Data\solarpanel.rvmat
+//Produced from mikero's Dos Tools Dll version 9.98
+//https://mikero.bytex.digital/Downloads
+//'now' is Tue Aug 26 13:18:14 2025 : 'file' last modified on Tue Aug 26 13:18:07 2025
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
 ambient[] = {1,1,1,1};
 diffuse[] = {1,1,1,1};
 forcedDiffuse[] = {0,0,0,0};
