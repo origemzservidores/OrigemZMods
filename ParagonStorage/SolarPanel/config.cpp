@@ -47,14 +47,14 @@ class CfgVehicles
 		repairCosts[]={25,30};
 		class EnergyManager
 		{
-			hasIcon=1;
-			autoSwitchOff=1;
-			energyStorageMax=10000;
-			energyUsagePerSecond=0.28;
-			reduceMaxEnergyByDamageCoef=0.5;
-			energyAtSpawn=5000;
-			powerSocketsCount=10;
-			compatiblePlugTypes[]={2,6};
+			hasIcon = 1;					   // Mostra um ícone de energia no HUD do jogador.
+			autoSwitchOff = 1;				   // Desliga automaticamente quando não há energia suficiente ou o dispositivo não está em uso.
+			energyStorageMax = 100000;		   // Capacidade máxima de armazenamento de energia (bateria interna, se aplicável).
+			energyUsagePerSecond = 0.10;	   // Consumo de energia por segundo enquanto o aparelho está ligado.
+			reduceMaxEnergyByDamageCoef = 0.5; // Se o item estiver danificado, a capacidade máxima de energia é reduzida pela metade (50%).
+			energyAtSpawn = 10000;			   // Energia inicial quando o item é criado ou spawnado.
+			powerSocketsCount = 4;			   // Quantidade de tomadas/saídas de energia disponíveis (pode conectar até 4 aparelhos).
+			compatiblePlugTypes[] = {2, 6};	   // Tipos de plugues compatíveis para conexão (números definidos pelo sistema do DayZ).
 		};
 		class AnimationSources
 		{

@@ -45,8 +45,7 @@ class Paragon_SolarPanel_ColorBase extends PowerGeneratorBase
 		SEffectManager.DestroyEffect(m_Smoke);
 	}
 	//------------------------------
-	// Sempre liga, ignora teto e horário
-	void CheckDaylight()
+	void CheckDaylight() // Funciona sempre, mesmo de noite, carrega durante o dia e a noite
 	{
 		if (GetGame().IsServer())
 		{
@@ -64,7 +63,7 @@ class Paragon_SolarPanel_ColorBase extends PowerGeneratorBase
 	}
 
 	//-----------------------------
-	override void EOnInit(IEntity other, int extra)
+	override void EOnInit(IEntity other, int extra) // Inicializa o painel solar após o servidor reiniciar
 	{
 		if (GetGame().IsServer())
 		{
@@ -142,7 +141,7 @@ class Paragon_SolarPanel_ColorBase extends PowerGeneratorBase
 		}
 	}
 
-	// Turn off when this runs out of fuel
+	// Desliga quando acabar o combustível
 	override void OnWorkStop()
 	{
 		if (GetGame().IsClient() || !GetGame().IsMultiplayer())
