@@ -3,6 +3,7 @@ modded class ContaminatedTrigger
     override void OnEnterServerEvent(TriggerInsider insider)
     {
         super.OnEnterServerEvent(insider);
+
         if (insider)
         {
             PlayerBase pb = PlayerBase.Cast(insider.GetObject());
@@ -16,6 +17,7 @@ modded class ContaminatedTrigger
     override void OnLeaveServerEvent(TriggerInsider insider)
     {
         super.OnLeaveServerEvent(insider);
+        
         if (insider)
         {
             PlayerBase pb = PlayerBase.Cast(insider.GetObject());
