@@ -41,12 +41,12 @@ class CfgVehicles
 		};
 		class EnergyManager
 		{
-			hasIcon=1;
-			energyUsagePerSecond=0.25;
-			cordLength=5;
-			plugType=1 + 2;
-			attachmentAction=1;
-			updateInterval=50;
+			hasIcon = 1;
+			energyUsagePerSecond = 0.05; // Consumo de energia por segundo
+			cordLength = 5;
+			plugType = 1 + 2;
+			attachmentAction = 1;
+			updateInterval = 50;
 		};
 		class DamageSystem
 		{
