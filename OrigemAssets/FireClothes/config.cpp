@@ -58,20 +58,6 @@ class CfgVehicles
 		};
 	};
 
-	class OZ_FirefightersBalaclavaMask: BalaclavaMask_ColorBase
-	{
-		scope=2;
-		displayName="Balaclava de Bombeiro";
-		descriptionShort="Um item indispensável para entrar em áreas de calor extremo.";
-		color="white";
-		hiddenSelectionsTextures[]=
-		{
-			"\OrigemAssets\FireClothes\Data\Masks\OZ_FirefightersBalaclavaMask_co.paa",
-			"\OrigemAssets\FireClothes\Data\Masks\OZ_FirefightersBalaclavaMask_co.paa",
-			"\OrigemAssets\FireClothes\Data\Masks\OZ_FirefightersBalaclavaMask_co.paa"
-		};
-	};
-
 	class OZ_FirefightersGloves: NBCGloves_ColorBase
 	{
 		scope=2;
@@ -97,5 +83,131 @@ class CfgVehicles
 			"\OrigemAssets\FireClothes\Data\Shoes\OZ_FirefightersBoots_co.paa",
 			"\OrigemAssets\FireClothes\Data\Shoes\OZ_FirefightersBoots_co.paa"
 		};
+	};
+
+	class OZ_FirefightersMask : Clothing
+	{
+		scope=2;
+		displayName="Máscara de Bombeiro";
+		descriptionShort="Um item indispensável para entrar em áreas de calor extremo.";
+		model="\DZ\characters\masks\GasMask_g.p3d";
+		inventorySlot[]=
+		{
+			"Mask"
+		};
+		simulation="clothing";
+		vehicleClass="Clothing";
+		itemInfo[]=
+		{
+			"Clothing",
+			"Mask"
+		};
+		repairableWithKits[]={8,6};
+		repairCosts[]={30,25};
+		rotationFlags=2;
+		weight=730;
+		weightPerQuantityUnit=0.2;
+		itemSize[]={3,4};
+		varWetMax=0.49000001;
+		heatIsolation=0.60000002;
+		visibilityModifier=0.89999998;
+		noHelmet=1;
+		noEyewear=1;
+		varQuantityInit=225;
+		varQuantityMin=0;
+		varQuantityMax=225;
+		quantityBar=1;
+		stackedUnit="ml";
+		varQuantityDestroyOnMin=0;
+		headSelectionsToHide[]={"Clipping_Gasmask"};
+		hiddenSelections[] = {"zbytek"};
+		hiddenSelectionsTextures[]=
+		{
+			"\OrigemAssets\FireClothes\Data\Masks\OZ_FirefightersMask_co.paa",
+			"\OrigemAssets\FireClothes\Data\Masks\OZ_FirefightersMask_co.paa",
+			"\OrigemAssets\FireClothes\Data\Masks\OZ_FirefightersMask_co.paa"
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=120;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\characters\masks\data\GasMask.rvmat",
+								"DZ\characters\masks\data\GasMask_Glass.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\characters\masks\data\GasMask.rvmat",
+								"DZ\characters\masks\data\GasMask_Glass.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\characters\masks\data\GasMask_damage.rvmat",
+								"DZ\characters\masks\data\GasMask_Glass_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\characters\masks\data\GasMask_damage.rvmat",
+								"DZ\characters\masks\data\GasMask_Glass_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\characters\masks\data\GasMask_destruct.rvmat",
+								"DZ\characters\masks\data\GasMask_Glass_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+		class ClothingTypes
+		{
+			male="\DZ\characters\masks\GasMask_m.p3d";
+			female="\DZ\characters\masks\GasMask_f.p3d";
+		};
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class pickUpItem
+				{
+					soundSet="DarkMotoHelmet_pickup_SoundSet";
+					id=797;
+				};
+				class drop
+				{
+					soundset="DarkMotoHelmet_drop_SoundSet";
+					id=898;
+				};
+			};
+		};
+		soundImpactType="plastic";
+		soundVoiceType="gasmask";
+		soundVoicePriority=5;
 	};
 }
