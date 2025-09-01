@@ -3,7 +3,7 @@ class FireMaskSettings
     int Version = 1; 
     bool Enable = false;
     bool ShowChatMessage = false;
-    float ConsumptionPerSecond = 0.25; 
+    float ConsumptionPerSecond = 0.125; 
 
     // Singleton instance
     static ref FireMaskSettings m_Instance; // Evita que cria uma nova instância toda vez que é chamado o metodo
@@ -14,7 +14,7 @@ class FireMaskSettings
     {
         Enable = false;
         ShowChatMessage = false;
-        ConsumptionPerSecond = 0.25;
+        ConsumptionPerSecond = 0.125; // 30 minutos de duração
         SaveSettings();
     }
 
