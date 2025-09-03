@@ -21,6 +21,18 @@ class KeyCard_ParentBase : ItemBase {
             return true;
         }
 
+        //---------- TRADUÇÃO PARA NOVOS CARTÕES ----------//
+
+        if (name.Contains("OZ_Keycard_Reforced_Hot")) {
+            output = string.Format("#str_keycard_hot_tittle %1", ConfigGetInt("CardTier"));
+            return true;
+        }
+
+        if (name.Contains("OZ_Keycard_Reforced_Cold")) {
+            output = string.Format("#str_keycard_cold_tittle %1", ConfigGetInt("CardTier"));
+            return true;
+        }
+
         return false;
 	}
 	
@@ -39,6 +51,18 @@ class KeyCard_ParentBase : ItemBase {
 
         if (name.Contains("OZ_Keycard_DoorBigT")) {
             output = string.Format("#str_keycard_areadoor_desc %1", ConfigGetInt("CardTier"));
+            return true;
+        }
+
+        //---------- TRADUÇÃO PARA NOVOS CARTÕES ----------//
+
+        if (name.Contains("OZ_Keycard_Reforced_Hot")) {
+            output = string.Format("#str_keycard_hot_desc %1", ConfigGetInt("CardTier"));
+            return true;
+        }
+
+        if (name.Contains("OZ_Keycard_Reforced_Cold")) {
+            output = string.Format("#str_keycard_cold_desc %1", ConfigGetInt("CardTier"));
             return true;
         }
 
