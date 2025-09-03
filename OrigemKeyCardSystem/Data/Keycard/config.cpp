@@ -15,6 +15,8 @@ class CfgPatches {
 			"OZ_Keycard_ReforcedT3",
 			"OZ_Keycard_ReforcedT4",
 			"OZ_Keycard_ReforcedT5",
+			"OZ_Keycard_Reforced_Hot",
+			"OZ_Keycard_Reforced_Cold",
 			"OZ_Keycard_DoorBigT1",
 			"OZ_Keycard_DoorBigT2",
 			"OZ_Keycard_DoorBigT3"
@@ -131,6 +133,22 @@ class CfgVehicles {
 		displayName = "Reinforced Doors Keycard T5";
 		descriptionShort = "A keycard used to access reinforced the locked rooms";
 		hiddenSelectionsTextures[] = {"OrigemKeyCardSystem\Data\Keycard\Textures\Reforced_Black_co.paa"};
+		CardTier = 5;
+	};
+
+	//---------- NOVAS PORTAS ----------//
+	class OZ_Keycard_Reforced_Hot : OZ_KeycardReforced_Base {
+		scope = public;
+		displayName = "Reinforced Doors Keycard Hot";
+		descriptionShort = "A keycard used to access reinforced the locked rooms";
+		hiddenSelectionsTextures[] = {"OrigemKeyCardSystem\Data\Keycard\Textures\Reforced_Hot_co.paa"};
+		CardTier = 5;
+	};
+	class OZ_Keycard_Reforced_Cold : OZ_KeycardReforced_Base {
+		scope = public;
+		displayName = "Reinforced Doors Keycard Cold";
+		descriptionShort = "A keycard used to access reinforced the locked rooms";
+		hiddenSelectionsTextures[] = {"OrigemKeyCardSystem\Data\Keycard\Textures\Reforced_Cold_co.paa"};
 		CardTier = 5;
 	};
 

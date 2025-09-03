@@ -26,6 +26,8 @@ class OZ_Door_ReforcedT2 : KeyCard_Door_Base {};
 class OZ_Door_ReforcedT3 : KeyCard_Door_Base {};
 class OZ_Door_ReforcedT4 : KeyCard_Door_Base {};
 class OZ_Door_ReforcedT5 : KeyCard_Door_Base {};
+class OZ_Door_Reforced_Hot : KeyCard_Door_Base {};
+class OZ_Door_Reforced_Cold : KeyCard_Door_Base {};
 
 class OZ_Door_BigT1 : KeyCard_Door_Base {};
 class OZ_Door_BigT2 : KeyCard_Door_Base {};

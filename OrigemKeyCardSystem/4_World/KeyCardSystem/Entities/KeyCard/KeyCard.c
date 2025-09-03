@@ -99,6 +99,20 @@ class OZ_Keycard_ReforcedT5 : KeyCard_ParentBase {
     }
 }
 
+//KEYCARDS HOT E COLD
+
+class OZ_Keycard_Reforced_Hot : KeyCard_ParentBase {
+    override bool CanAuthorizeDoor( string type ) {
+        return type == "OZ_Door_Reforced_Hot";
+    }
+}
+
+class OZ_Keycard_Reforced_Cold : KeyCard_ParentBase {
+    override bool CanAuthorizeDoor( string type ) {
+        return type == "OZ_Door_Reforced_Cold";
+    }
+}
+
 // Big Keycards
 class OZ_Keycard_DoorBigT1 : KeyCard_ParentBase {
     override bool CanAuthorizeDoor( string type ) {
