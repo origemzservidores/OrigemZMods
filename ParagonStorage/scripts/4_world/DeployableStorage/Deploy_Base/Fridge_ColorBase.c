@@ -29,7 +29,7 @@ class Fridge_ColorBase : OZ_Container_Base
 		RegisterNetSyncVariableBool("m_IsPower");
 	}
 
-	override void EEInit()
+	override void EEInit() // Inicializa a geladeira assim que o servidor liga
 	{
 		super.EEInit();
 
@@ -228,7 +228,8 @@ class Fridge_ColorBase : OZ_Container_Base
 
 	override void OnWorkStop()
 	{
-		// m_IsPower = false; Sempre ligada
+		m_IsPower = false;
+
 		SetSynchDirty();
 
 		if (GetGame().IsClient() || !GetGame().IsMultiplayer())
