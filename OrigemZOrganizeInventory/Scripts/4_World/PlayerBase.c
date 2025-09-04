@@ -15,9 +15,9 @@ class EntityProperty
     }
 }
 
-class EntityPropSorter
+class EntityPropSorter // Classe para ordenar propriedades de entidades
 {
-    static void SortByMaxSide(array<ref EntityProperty> arr)
+    static void SortByMaxSide(array<ref EntityProperty> arr) // Função para ordenar por lado máximo
     {
         int n = arr.Count();
         for (int i = 0; i < n - 1; i++)
@@ -36,7 +36,7 @@ class EntityPropSorter
         }
     }
 
-    static void SortByAreaAsc(array<ref EntityProperty> arr)
+    static void SortByAreaAsc(array<ref EntityProperty> arr) // Função para ordenar por área (crescente)
     {
         int n = arr.Count();
         for (int i = 0; i < n - 1; i++)
@@ -78,7 +78,7 @@ modded class PlayerBase extends ManBase
         #endif
     }
 
-    override void OnRPC(PlayerIdentity sender, int rpc_type, ParamsReadContext ctx)
+    override void OnRPC(PlayerIdentity sender, int rpc_type, ParamsReadContext ctx) // Função para tratar RPCs
     {
         super.OnRPC(sender, rpc_type, ctx);
 
@@ -102,7 +102,7 @@ modded class PlayerBase extends ManBase
         }
     }
 
-    void EntityCargoSort(Object obj, bool optimize = false)
+    void EntityCargoSort(Object obj, bool optimize = false) // Função para organizar o cargo do dayz
     {
         if (!m_OrganizeInventorySettings || !m_OrganizeInventorySettings.Enable)
             return;
@@ -168,7 +168,8 @@ modded class PlayerBase extends ManBase
         // Cria grid vazio
         array<ref array<int>> grid = CreateEmptyGrid(cargoW, cargoH);
 
-        // Primeira rodada: tenta encaixar cada item com rotação se necessário
+        // Primeira rodada: tenta encaixar cada item SEM rotação (apenas na orientação original)
+       
         array<ref EntityProperty> notPlaced = new array<ref EntityProperty>;
         foreach (EntityProperty prop : cargoProps)
         {
@@ -177,19 +178,14 @@ modded class PlayerBase extends ManBase
             itemBase.GetInventory().GetCurrentInventoryLocation(src);
             InventoryLocation dst = new InventoryLocation();
 
-            bool placed = false;
-            // Primeira tentativa: sem flip
-            placed = TryPlaceItem(grid, prop.width, prop.height, cargo, itemBase, src, dst, cargoW, cargoH, false);
-            // Segunda tentativa: com flip (se dimensões diferentes)
-            if (!placed && prop.width != prop.height)
-                placed = TryPlaceItem(grid, prop.height, prop.width, cargo, itemBase, src, dst, cargoW, cargoH, true);
+            bool placed = TryPlaceItem(grid, prop.width, prop.height, cargo, itemBase, src, dst, cargoW, cargoH, prop.flip);
 
             if (!placed)
                 notPlaced.Insert(prop);
         }
 
-        // Segunda rodada: tenta encaixar os itens restantes nos buracos, do menor para o maior (por área)
-        EntityPropSorter.SortByAreaAsc(notPlaced);
+        // Segunda rodada: tenta encaixar os que sobraram, ainda sem flip
+         EntityPropSorter.SortByAreaAsc(notPlaced);
         array<ref EntityProperty> stillNotPlaced = new array<ref EntityProperty>;
         foreach (EntityProperty prop2 : notPlaced)
         {
@@ -198,10 +194,7 @@ modded class PlayerBase extends ManBase
             itemBase2.GetInventory().GetCurrentInventoryLocation(src2);
             InventoryLocation dst2 = new InventoryLocation();
 
-            // Tenta encaixar novamente, normal e flip
-            bool placed2 = TryPlaceItem(grid, prop2.width, prop2.height, cargo, itemBase2, src2, dst2, cargoW, cargoH, false);
-            if (!placed2 && prop2.width != prop2.height)
-                placed2 = TryPlaceItem(grid, prop2.height, prop2.width, cargo, itemBase2, src2, dst2, cargoW, cargoH, true);
+            bool placed2 = TryPlaceItem(grid, prop2.width, prop2.height, cargo, itemBase2, src2, dst2, cargoW, cargoH, prop2.flip);
 
             if (!placed2)
                 stillNotPlaced.Insert(prop2); // ficou no chão mesmo após a segunda rodada
@@ -210,7 +203,7 @@ modded class PlayerBase extends ManBase
         lastTime = nowTime;
     }
 
-    array<ref array<int>> CreateEmptyGrid(int w, int h)
+    array<ref array<int>> CreateEmptyGrid(int w, int h) 
     {
         array<ref array<int>> grid = new array<ref array<int>>;
         for (int y = 0; y < h; y++)
@@ -242,7 +235,7 @@ modded class PlayerBase extends ManBase
         return false;
     }
 
-    void CombineStackableItems(ref array<ItemBase> items)
+    void CombineStackableItems(ref array<ItemBase> items) // Função para combinar itens empilháveis
     {
         for (int i = 0; i < items.Count(); i++)
         {
