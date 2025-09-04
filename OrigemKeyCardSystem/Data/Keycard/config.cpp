@@ -142,14 +142,12 @@ class CfgVehicles {
 		displayName = "Reinforced Doors Keycard Hot";
 		descriptionShort = "A keycard used to access reinforced the locked rooms";
 		hiddenSelectionsTextures[] = {"OrigemKeyCardSystem\Data\Keycard\Textures\Reforced_Hot_co.paa"};
-		CardTier = Calor;
 	};
 	class OZ_Keycard_Reforced_Cold : OZ_KeycardReforced_Base {
 		scope = public;
 		displayName = "Reinforced Doors Keycard Cold";
 		descriptionShort = "A keycard used to access reinforced the locked rooms";
 		hiddenSelectionsTextures[] = {"OrigemKeyCardSystem\Data\Keycard\Textures\Reforced_Cold_co.paa"};
-		CardTier = Fria;
 	};
 
 	// Door Big Keycards
